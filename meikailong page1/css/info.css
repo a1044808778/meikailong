@@ -34,9 +34,9 @@ html .wap-wrap {width:481px;margin:0 auto}
 .p01{ top: .59rem; left:0.97rem; width: 5.55rem;}
 .p02{ top: 2.05rem; left:1.97rem; width: 3.4rem;animation: puffIn 1s ease 0s 1 normal both running;}
 .p03{ top: 5.35rem; left:1.07rem; width: 5.4rem; }
-.p04{ top: 7.95rem; left:0; width: 100%; }
-.p05{ top: 12rem; left:-0.98rem; width: 10.25rem; z-index: 15;}
-.p06{ top: 13.15rem; left:0rem; width: 7.4rem; animation: flash 2.5s ease 0.5s infinite normal both running;}
+.p04{ top: 7.95rem; left:0; width: 100%; z-index: 10; }
+.p05{ top: 12rem; left:0rem; width:100%; z-index: 15;}
+.p06{ top: 13.12rem; left:-.02rem; width: 7.4rem; animation: flash 2.5s ease 0.5s infinite normal both running; z-index: 20;}
 
 .p07{ top: 26rem;left:0.5rem;  width: 6.5rem; animation: flash 1.8s ease 0.5s infinite normal both running; z-index: 20;}
 .p08{ top: 26.2rem;left:0.54rem;  width: 6.4rem; z-index: 20;}
