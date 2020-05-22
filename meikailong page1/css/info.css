@@ -47,8 +47,8 @@ html .wap-wrap {width:481px;margin:0 auto}
 .p12{top: 31.05rem;left:0.81rem;  width: 1.4rem; z-index: 22;animation: tada 2s ease 0s infinite normal both running;}
 
 .p13{ top: 36.05rem;left:0.5rem;  width: 6.5rem; animation: flash 1.8s ease 0.5s infinite normal both running;}
-.p14{ top: 36.25rem;left:0.54rem;  width: 6.4rem;}
-.p15{top: 36.45rem;right:0.71rem; width: 1.4rem;animation: tada 2s ease 0s infinite normal both running;}
+.p14{ top: 36.25rem;left:0.54rem;  width: 6.4rem; z-index: 20;}
+.p15{top: 36.45rem;right:0.71rem; width: 1.4rem; z-index: 20;animation: tada 2s ease 0s infinite normal both running;}
 
 
 
