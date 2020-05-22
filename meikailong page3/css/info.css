@@ -27,55 +27,43 @@ body,html a {color:#0F192E}
 @media screen and (min-width:481px) {html {font-size:64px}
 html .wap-wrap {width:481px;margin:0 auto}
 }
-@keyframes buttonMove
-{
-    0%{
-    transform: scale(0.9);  margin-top:0;
-    } 
-    50%{
-        transform: scale(0.95); margin-top: -.1em;
-    }
-    100%{
-        transform: scale(0.9); margin-top: 0;
-    }
+.wap-wrap{ position: relative; margin-bottom: -.4rem !important; overflow: hidden;}
+.bodybg{ width: 100%; margin-bottom: -.35rem !important; overflow: hidden;}
+.pi{ position: absolute;}
+.p01{ top: .59rem; left:0.97rem; width: 5.55rem;}
+.p02{ top: 2.05rem; left:1.97rem; width: 3.4rem;animation: puffIn 1s ease 0s 1 normal both running;}
+.p03{ top: 5.35rem; left:0.4rem; width: 6.7rem; }
+.p04{ top: 7.95rem; left:0; width: 100%; }
+.p05{ top: 19.25rem; left:0.19rem;  width: 7.1rem; animation: flash 2.9s ease 0.5s infinite normal both running;}
+.p06{ top: 20.03rem; left:0.36rem;  width: 6.7rem;z-index: 10;}
+.p07{ top: 20.35rem; right:0.56rem;  width: 4.7rem; z-index: 15; }
+.p10{ top: 20.35rem; right:0.56rem;  width: 4.25rem; z-index: 15;  animation: flash 2.2s ease 0.5s infinite normal both running;}
+.p08{ top: 23.95rem; left:0.36rem;  width: 6.7rem; z-index: 10;}
+.p09{ top: 27.45rem; left:0.36rem;  width: 6.7rem; z-index: 10;}
+.p11{ top: 20.05rem; left:0.59rem;  width: 1.45rem; z-index: 10;animation: rotateIn 2s linear 0s infinite normal both running;}
+.p12{ top: 23.97rem; left:0.59rem;  width: 1.45rem; z-index: 10;animation: rotateIn 2s linear 0s infinite normal both running;}
+.p13{ top: 27.48rem; left:0.59rem;  width: 1.45rem; z-index: 10;animation: rotateIn 2s linear 0s infinite normal both running;}
 
-}
-@keyframes titlemove
-{
-    0%{
-     opacity: 1;
-    } 
-    50%{
-        opacity: 0.2;
-    }
-    100%{
-        opacity: 1;
-    }
+.p14{ top: 20.5rem; left:0.7rem;  width: 1.2rem; z-index: 10;animation: tada 2s ease 0s infinite normal both running;}
+.p15{ top: 24.42rem; left:0.7rem;  width: 1.2rem; z-index: 10;animation: tada 2s ease 0s infinite normal both running;}
+.p16{ top: 27.95rem; left:0.7rem;  width: 1.2rem; z-index: 10;animation: tada 2s ease 0s infinite normal both running;}
 
-}
-.wap-wrap .mainbg{ width:100%;vertical-align: middle;}
-.button01box{ position: relative;}
-.float01{ position: absolute; z-index: 10; width: 100%; top: -1.2rem;  ; }
-.button{ text-align: center; width: 100%; position: absolute; bottom:0rem; z-index: 5;  animation-direction:alternate; animation-timing-function: ease-in-out; }
-.button img{ width: 93%;}
-.button01{ top: 2.5rem; height: 3.1rem;}
-.button02{top: 2.45rem; left:-.22rem}
-.float02{ position: absolute; z-index: 10; width: 100%; top: -.3rem; }
-.float03{ position: absolute; z-index: 10; width: 100%; top: 0rem; }
-.float03 img,.float02 img,.float01 img{ width: 100%;}
-.button03{ top: 2.35em;}
+.a{ position: absolute; display: block; width: 100%; height: 1.8rem; z-index: 50;}
+.a01{top: 20rem;}
+.a02{top: 23.9rem;}
+.a03{top: 27.4rem;}
 
-.title{ position: absolute; animation-direction:alternate; animation-timing-function: ease-in-out; }
-.title01{right: 2.1rem; top: 0.3rem; width: .5rem;animation:titlemove 1.5s infinite;}
-.title02{left: 1.36rem; top: 1.3rem; width: .32rem;animation:titlemove 1.5s infinite;}
-.title03{right: .43rem; top: 4.99rem; width: .6rem;animation:titlemove 1.5s infinite;}
-.title04{right: 1.65rem; top: 0.26rem; width: .6rem;animation:titlemove 1.2s infinite;}
 
-.button21{width: 100%; top:.1rem; }
-.button22{width: 100%; top:3.95rem; }
-.button23{width: 100%; top:7.57rem; } 
-.button24{top:0.08rem;}
-.button.button24 img{ top: 0;width: 100%;animation:titlemove 1.5s infinite;animation:titlemove 1.2s infinite;animation-direction:alternate; animation-timing-function: ease-in-out;}
+
+
+
+
+
+
+
+
+
+
 
 
 

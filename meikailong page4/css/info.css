@@ -27,34 +27,25 @@ body,html a {color:#0F192E}
 @media screen and (min-width:481px) {html {font-size:64px}
 html .wap-wrap {width:481px;margin:0 auto}
 }
-
 .wap-wrap{ position: relative; margin-bottom: -.4rem !important; overflow: hidden;}
-.bodybg{ width: 100%; margin-bottom: -.35rem !important; overflow: hidden;}
+.bodybg{ width: 100%; overflow: hidden;margin-bottom: -.35rem !important; overflow: hidden;}
 .pi{ position: absolute;}
-.p01{ top: .59rem; left:0.97rem; width: 5.55rem;}
-.p02{ top: 2.05rem; left:1.97rem; width: 3.4rem;animation: puffIn 1s ease 0s 1 normal both running;}
-.p03{ top: 5.35rem; left:1.07rem; width: 5.4rem; }
-.p04{ top: 7.95rem; left:0; width: 100%; }
-.p05{ top: 12rem; left:-0.98rem; width: 10.25rem; z-index: 15;}
-.p06{ top: 13.15rem; left:0rem; width: 7.4rem; animation: flash 2.5s ease 0.5s infinite normal both running;}
-
-.p07{ top: 26rem;left:0.5rem;  width: 6.5rem; animation: flash 1.8s ease 0.5s infinite normal both running; z-index: 20;}
-.p08{ top: 26.2rem;left:0.54rem;  width: 6.4rem; z-index: 20;}
-.p09{top: 26.4rem;right:0.71rem;  width: 1.4rem;animation: tada 2s ease 0s infinite normal both running; z-index: 20;}
-
-.p10{ top: 30.65rem;left:0.5rem;  width: 6.5rem; animation: flash 1.8s ease 0.5s infinite normal both running;}
-.p11{ top: 30.85rem;left:0.54rem;  width: 6.4rem; z-index: 22;}
-.p12{top: 31.05rem;left:0.81rem;  width: 1.4rem; z-index: 22;animation: tada 2s ease 0s infinite normal both running;}
-
-.p13{ top: 36.05rem;left:0.5rem;  width: 6.5rem; animation: flash 1.8s ease 0.5s infinite normal both running;}
-.p14{ top: 36.25rem;left:0.54rem;  width: 6.4rem;}
-.p15{top: 36.45rem;right:0.71rem; width: 1.4rem;animation: tada 2s ease 0s infinite normal both running;}
+.p01{ top: 1.6rem; left:1.27rem; width: 5rem; animation: puffIn 1s ease 0s 1 normal both running;}
+.p02{ top: 8.09rem; left:0; width: 100%; }
+.p03{ top: 0.09rem; left:0; width: 100%; }
+.p04{ top: 0rem; left:0; width: 100%; animation: flash 3s ease 0s infinite normal both running;}
+.p05{ top: 0.05rem; left:0; width: 100%; z-index: 25;}
+.p06{ top:21.95rem; left:.15rem; width:7.22rem;  animation: flash 2s ease 0s infinite normal both running; z-index: 20;}
+.p07{ top:22.6rem; right:.45rem; width:1.6rem;  animation: wobble 1.5s ease 0s infinite normal both running;}
+.p08{ top:26.9rem; right:.55rem; width:1.6em;  animation: wobble 1.5s ease 0s infinite normal both running;}
+.p09{ top:31rem; right:.55rem; width:1.6rem;  animation: wobble 1.5s ease 0s infinite normal both running;}
 
 
 
-
-
-
+.a{ position: absolute; display: block; width: 100%; height: 2rem; z-index: 50;}
+.a01{top: 21.9rem; z-index: 550;}
+.a02{top: 26.3rem; z-index: 550;}
+.a03{top: 30.4rem; z-index: 550;}
 
 
 
