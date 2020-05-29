@@ -60,47 +60,47 @@
     <!-- <script type="application/javascript" src="https://aureuma.mklmall.com/js/aureuma.data.min.js"></script>
     <script type="text/javascript" src="http://res2.wx.qq.com/open/js/jweixin-1.4.0.js"></script> -->
     <script type="text/javascript">
-        if (isInWeixin()) {
-            console.log(1);
-          if (!getQueryString('wxAuthKey2')) {
-              console.log(2);
-              location.href = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxefbec73b5639a8f1&redirect_uri=http%3A%2F%2Fwenjiaweb.chinaredstar.com%2Foauth4%2FauthUserInfo.ashx%3Fjump_url%3Dhttp%253A%252F%252Ftf.redstarbuy.com%252F%253Fsource%253Dquanminyingxiao&response_type=code&scope=snsapi_userinfo&connect_redirect=1#wechat_redirect';
-          } else if (!getOpenid()) {
-              console.log(3);
-              var openid, unionid;
-              var wxAuthKey = getQueryString('wxAuthKey2');
-              setGuid(wxAuthKey);
-              $.ajax({
-                  dataType:'json',
-                  url:"http://tf.redstarbuy.com/index/index/authuserinfo.html",
-                  type:"post",
-                  data:{
-                      wx_auth_key: wxAuthKey
-                  },
-                  success:function (res) {
-                      console.log(4);
-                      console.log(res);
-                      if(res.status == 1){
-                          setOpenid(res.data.openid);
-                          setUnionid(res.data.unionid);
-                          setUserInfo(res.data);
-                          tracker_p({id: '9291'});
-                          clearAuthTimes();
-                      } else {
-                          if (addAuthTimes() < 2) { // 不做分享，防止打开别人分享的连接中带有失效的auth_key，需要重新授权一次
-                              location.href = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxefbec73b5639a8f1&redirect_uri=http%3A%2F%2Fwenjiaweb.chinaredstar.com%2Foauth4%2FauthUserInfo.ashx%3Fjump_url%3Dhttp%253A%252F%252Ftf.redstarbuy.com%252F%253Fsource%253Dquanminyingxiao&response_type=code&scope=snsapi_userinfo&connect_redirect=1#wechat_redirect';
-                          }
-                      }
-                  },
-                  fail: function() {
-                      console.log(4);
-                      if (addAuthTimes() < 2) { // 不做分享，防止打开别人分享的连接中带有失效的auth_key，需要重新授权一次
-                          location.href = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxefbec73b5639a8f1&redirect_uri=http%3A%2F%2Fwenjiaweb.chinaredstar.com%2Foauth4%2FauthUserInfo.ashx%3Fjump_url%3Dhttp%253A%252F%252Ftf.redstarbuy.com%252F%253Fsource%253Dquanminyingxiao&response_type=code&scope=snsapi_userinfo&connect_redirect=1#wechat_redirect';
-                      }
-                  }
-              })
-          }
-        }
+        // if (isInWeixin()) {
+        //     console.log(1);
+        //   if (!getQueryString('wxAuthKey2')) {
+        //       console.log(2);
+        //       location.href = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxefbec73b5639a8f1&redirect_uri=http%3A%2F%2Fwenjiaweb.chinaredstar.com%2Foauth4%2FauthUserInfo.ashx%3Fjump_url%3Dhttp%253A%252F%252Ftf.redstarbuy.com%252F%253Fsource%253Dquanminyingxiao&response_type=code&scope=snsapi_userinfo&connect_redirect=1#wechat_redirect';
+        //   } else if (!getOpenid()) {
+        //       console.log(3);
+        //       var openid, unionid;
+        //       var wxAuthKey = getQueryString('wxAuthKey2');
+        //       setGuid(wxAuthKey);
+        //       $.ajax({
+        //           dataType:'json',
+        //           url:"http://tf.redstarbuy.com/index/index/authuserinfo.html",
+        //           type:"post",
+        //           data:{
+        //               wx_auth_key: wxAuthKey
+        //           },
+        //           success:function (res) {
+        //               console.log(4);
+        //               console.log(res);
+        //               if(res.status == 1){
+        //                   setOpenid(res.data.openid);
+        //                   setUnionid(res.data.unionid);
+        //                   setUserInfo(res.data);
+        //                   tracker_p({id: '9291'});
+        //                   clearAuthTimes();
+        //               } else {
+        //                   if (addAuthTimes() < 2) { // 不做分享，防止打开别人分享的连接中带有失效的auth_key，需要重新授权一次
+        //                       location.href = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxefbec73b5639a8f1&redirect_uri=http%3A%2F%2Fwenjiaweb.chinaredstar.com%2Foauth4%2FauthUserInfo.ashx%3Fjump_url%3Dhttp%253A%252F%252Ftf.redstarbuy.com%252F%253Fsource%253Dquanminyingxiao&response_type=code&scope=snsapi_userinfo&connect_redirect=1#wechat_redirect';
+        //                   }
+        //               }
+        //           },
+        //           fail: function() {
+        //               console.log(4);
+        //               if (addAuthTimes() < 2) { // 不做分享，防止打开别人分享的连接中带有失效的auth_key，需要重新授权一次
+        //                   location.href = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxefbec73b5639a8f1&redirect_uri=http%3A%2F%2Fwenjiaweb.chinaredstar.com%2Foauth4%2FauthUserInfo.ashx%3Fjump_url%3Dhttp%253A%252F%252Ftf.redstarbuy.com%252F%253Fsource%253Dquanminyingxiao&response_type=code&scope=snsapi_userinfo&connect_redirect=1#wechat_redirect';
+        //               }
+        //           }
+        //       })
+        //   }
+        // }
         // 判断安卓
         function isAndroid() {
             var u = navigator.userAgent;
