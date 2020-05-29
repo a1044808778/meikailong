@@ -41,14 +41,21 @@ html .wap-wrap {width:481px;margin:0 auto}
 .p07{ top: 26rem;left:0.5rem;  width: 6.5rem; animation: flash 1.8s ease 0.5s infinite normal both running; z-index: 20;}
 .p08{ top: 26.2rem;left:0.54rem;  width: 6.4rem; z-index: 20;}
 .p09{top: 26.4rem;right:0.71rem;  width: 1.4rem;animation: tada 2s ease 0s infinite normal both running; z-index: 20;}
+.p16{top: 25rem;right:0.55rem;  width: 1.7rem;z-index: 20;animation: pulse 2s ease 0s infinite normal both running;}
+
 
 .p10{ top: 30.65rem;left:0.5rem;  width: 6.5rem; animation: flash 1.8s ease 0.5s infinite normal both running;}
 .p11{ top: 30.85rem;left:0.54rem;  width: 6.4rem; z-index: 22;}
 .p12{top: 31.05rem;left:0.81rem;  width: 1.4rem; z-index: 22;animation: tada 2s ease 0s infinite normal both running;}
+.p17{top: 29.6rem;left:0.61rem;  width: 1.7rem; z-index: 22;animation: pulse 2s ease 0s infinite normal both running; }
+
+
 
 .p13{ top: 36.05rem;left:0.5rem;  width: 6.5rem; animation: flash 1.8s ease 0.5s infinite normal both running;}
 .p14{ top: 36.25rem;left:0.54rem;  width: 6.4rem; z-index: 20;}
 .p15{top: 36.45rem;right:0.71rem; width: 1.4rem; z-index: 20;animation: tada 2s ease 0s infinite normal both running;}
+.p18{top: 35.05rem;right:0.55rem; width: 1.7rem; z-index: 20;animation: pulse 2s ease 0s infinite normal both running;}
+
 
 
 
