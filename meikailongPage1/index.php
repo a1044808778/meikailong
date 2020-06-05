@@ -46,19 +46,19 @@ $signPackage = $jssdk->GetSignPackage();
 
         <img class='pi p05' src="./images/p09.png">
         <img class='pi p06' src="./images/p08.png">
-        <a href="#id1">
+        <a href="https://w.url.cn/s/AeuwIVK">
             <img class='pi p07' src="./images/p10.png">
             <img class='pi p08' src="./images/p07.png">
             <img class='pi p09' src="./images/p01.png">
             <img class='pi p16' src="./images/p04.png">
         </a>
-        <a href="#id2">
+        <a href="https://w.url.cn/s/AnRXAKd">
             <img class='pi p10' src="./images/p10.png">
             <img class='pi p11' src="./images/p05.png">
             <img class='pi p12' src="./images/p01.png">
             <img class='pi p17' src="./images/p03.png">
         </a>
-        <a href="#id3">
+        <a href="https://w.url.cn/s/AnRXAKd">
             <img class='pi p13' src="./images/p10.png">
             <img class='pi p14' src="./images/p06.png">
             <img class='pi p15' src="./images/p01.png">
