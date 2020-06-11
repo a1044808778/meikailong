@@ -30,15 +30,15 @@ $signPackage = $jssdk->GetSignPackage();
     <div class='wap-wrap'>
         <img class='mainbg' src='./images/p01.jpg' />
         <video class='pi p04' poster="./images/p02.jpg" controls>
-            <source src="./images/video.mp4?2" type="video/mp4"> 
+            <source src="http://cdn.asdfin.com/page2video.mp4" type="video/mp4"> 
         </video>
         <div class='button01box'> 
-            <a href="#id1" class="button button21"> <img src="./images/button01.gif"></a> 
+            <a href="https://w.url.cn/s/AeuwIVK" class="button button21"> <img src="./images/button01.gif"></a> 
         </div>
         <img class='mainbg' src='./images/p03.jpg' /> 
         <div class='button01box'> 
-            <a href="#id2" class="button button22"> <img src="./images/button02.gif"></a> 
-            <a href="#id3" class="button button23"> <img src="./images/button03.gif"></a> 
+            <a href="https://w.url.cn/s/AnRXAKd" class="button button22"> <img src="./images/button02.gif"></a> 
+            <a href="https://w.url.cn/s/AnRXAKd" class="button button23"> <img src="./images/button03.gif"></a> 
         </div>
         <img class='mainbg' src='./images/p04.jpg' />
         <div class='button01box'> 
@@ -530,9 +530,9 @@ $signPackage = $jssdk->GetSignPackage();
 
             var shareInfo_appMessage = {
                 title: '红星美凯龙 | 独家冠名天猫超级晚，嗨翻顶秀燃爆618', // 分享标题
-                desc: '6月16日19:30-22:30 江苏卫视&优酷视频现场直播', // 分享描述
+                desc: '6月16日19:30-22:30，江苏卫视！抢49999元超级家装大礼包，更有百万家居壕礼免费送!', // 分享描述
         //            link: url, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-                imgUrl: 'http://asdfin.com/meikailong/meikailongPage1/images/WechatIMG265.jpeg', // 分享图标
+                imgUrl: 'http://asdfin.com/meikailong/meikailongPage2/images/shareCover.jpg', // 分享图标
         
                 link: url,//传播的链接地址里面包含参数：parentCode;
                 // 加密后的（openid|unionid） 注意：openid和unionid需要前端拼接，拼接方式是两者中间加|,如前面括号所示。//拼接后需要js加密（），如果拿不到unionid，只传openid。
@@ -565,9 +565,9 @@ $signPackage = $jssdk->GetSignPackage();
             };
             var shareInfo_timeLine = {
                 title: '红星美凯龙 | 独家冠名天猫超级晚，嗨翻顶秀燃爆618', // 分享标题
-                desc: '6月16日19:30-22:30 江苏卫视&优酷视频现场直播', // 分享描述
+                desc: '6月16日19:30-22:30，江苏卫视！抢49999元超级家装大礼包，更有百万家居壕礼免费送!', // 分享描述
         //            link: url, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-                imgUrl: 'http://asdfin.com/meikailong/meikailongPage1/images/WechatIMG265.jpeg', // 分享图标
+                imgUrl: 'http://asdfin.com/meikailong/meikailongPage2/images/shareCover.jpg', // 分享图标
         
                 link: url,//传播的链接地址里面包含参数：parentCode;
                 // 加密后的（openid|unionid） 注意：openid和unionid需要前端拼接，拼接方式是两者中间加|,如前面括号所示。//拼接后需要js加密（），如果拿不到unionid，只传openid。
