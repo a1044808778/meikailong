@@ -5,8 +5,6 @@ $appsec = "8c4890374a6b185d6184da3693f37f03";
 $jssdk = new JSSDK($appid, $appsec);
 $signPackage = $jssdk->GetSignPackage();
 ?>
-
-
 <!doctype html>
 <html>
 <head>
@@ -31,7 +29,9 @@ $signPackage = $jssdk->GetSignPackage();
 <body>
     <div class='wap-wrap'>
         <img class='mainbg' src='./images/p01.jpg' />
-        <img class='mainbg' src='./images/p02.jpg' />
+        <video class='pi p04' poster="./images/p02.jpg" controls>
+            <source src="./images/video.mp4?2" type="video/mp4"> 
+        </video>
         <div class='button01box'> 
             <a href="#id1" class="button button21"> <img src="./images/button01.gif"></a> 
         </div>
@@ -55,9 +55,6 @@ $signPackage = $jssdk->GetSignPackage();
     <script src="./js/md5.js" type="text/javascript"></script>
     <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"></script> 
     
-
-
-
 
     <!--开发环境-->
     <!-- <script type="application/javascript" src="https://aureuma.mklmall.com/js/aureuma.data.min.js"></script>  -->

@@ -38,6 +38,9 @@ $signPackage = $jssdk->GetSignPackage();
     <div class='wap-wrap'>
         <img src="./images/p08.jpg" class='bodybg'>
         <!-- <img class='pi p01' src="./images/p07.png"> -->
+        <img class='pi p10' src="./images/p10.png">
+        <img class='pi g01' src="./images/gif.gif">
+        <img class='pi g02' src="./images/gif.gif">
         <img class='pi p02' src="./images/p03.png">
         <img class='pi p03' src="./images/p05.png">
         <img class='pi p04' src="./images/p06.png">
