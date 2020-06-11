@@ -40,7 +40,6 @@ html .wap-wrap {width:481px;margin:0 auto}
 .p08{ top:26.9rem; right:.55rem; width:1.6em; z-index: 40;  animation: wobble 1.5s ease 0s infinite normal both running;}
 .p09{ top:31rem; right:.55rem; width:1.6rem; z-index: 40; animation: wobble 1.5s ease 0s infinite normal both running;}
 
-.p10{ top: 0.09rem; left:0; width: 100%; }
 
 
 .a{ position: absolute; display: block; width: 100%; height: 2rem; z-index: 50;}
@@ -48,8 +47,6 @@ html .wap-wrap {width:481px;margin:0 auto}
 .a02{top: 26.3rem; z-index: 550;}
 .a03{top: 30.4rem; z-index: 550;}
 
-.g01{ top:12.35rem; right:1.46rem;  width: 0.6rem; z-index: 15; }
-.g02{ top:12.35rem; left:1.46rem;  width: 0.6rem; z-index: 15; }
 
 
 
