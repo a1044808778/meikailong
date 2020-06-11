@@ -53,6 +53,7 @@ html .wap-wrap {width:481px;margin:0 auto}
     }
 
 }
+.p04{ width:100%; vertical-align: bottom;}
 .wap-wrap .mainbg{ width:100%;vertical-align: middle;}
 .button01box{ position: relative;}
 .float01{ position: absolute; z-index: 10; width: 100%; top: -1.2rem;  ; }
