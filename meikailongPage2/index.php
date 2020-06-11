@@ -33,9 +33,13 @@ $signPackage = $jssdk->GetSignPackage();
         <img class='mainbg' src='./images/p01.jpg' />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <video class='pi p04' poster="./images/p02.jpg" controls>
             <source src="http://cdn.asdfin.com/page2video.mp4" type="video/mp4"> 
         </video>
+=======
+        <img class='mainbg' src='./images/p02.jpg' />
+>>>>>>> parent of 3094797... page4修改 非最终版
 =======
         <img class='mainbg' src='./images/p02.jpg' />
 >>>>>>> parent of 3094797... page4修改 非最终版
