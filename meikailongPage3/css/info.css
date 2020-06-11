@@ -53,7 +53,8 @@ html .wap-wrap {width:481px;margin:0 auto}
 .a02{top: 23.9rem;}
 .a03{top: 27.4rem;}
 
-
+.g01{ top:12.35rem; right:1.46rem;  width: 0.6rem; z-index: 15; }
+.g02{ top:12.35rem; left:1.46rem;  width: 0.6rem; z-index: 15; }
 
 
 
