@@ -24,7 +24,7 @@ $signPackage = $jssdk->GetSignPackage();
 <meta name="full-screen" content="yes">
 <meta name="screen-orientation" content="portrait">
 <meta name="browsermode" content="application">
-<title>红星美凯龙 | 独家冠名天猫超级晚，嗨翻顶秀燃爆618</title>
+<title>红星美凯龙 | 独家冠名天猫618超级晚，斑斓幻境炫酷出圈</title>
 <link href="./css/info.css" type="text/css" rel="stylesheet">
 <link href="./css/am.css" type="text/css" rel="stylesheet">
 
@@ -36,10 +36,17 @@ $signPackage = $jssdk->GetSignPackage();
 
 <body>
     <div class='wap-wrap'>
-        <img src="./images/p08.jpg" class='bodybg'>
+    <img src="./images/p08.jpg" class='bodybg'>
         <!-- <img class='pi p01' src="./images/p07.png"> -->
-        <img class='pi p02' src="./images/p03.png">
+        <img class='pi p10' src="./images/p10.png">
+        <img class='pi g01' src="./images/gif.gif">
+        <img class='pi g02' src="./images/gif.gif">
+        
+        <video class='pi p02' poster="./images/p03.jpg" controls>
+            <source src="./images/video.mp4?2" type="video/mp4"> 
+        </video>
         <img class='pi p03' src="./images/p05.png">
+        
         <img class='pi p04' src="./images/p06.png">
         <img class='pi p05' src="./images/p02.png">
         <img class='pi p06' src="./images/p04.png">
@@ -47,9 +54,9 @@ $signPackage = $jssdk->GetSignPackage();
         <img class='pi p08' src="./images/p01.png">
         <img class='pi p09' src="./images/p01.png">
      
-        <a href="#id1" class='a a01'></a>
-        <a href="#id2" class='a a02'></a>
-        <a href="#id3" class='a a03'></a>
+        <a href="https://w.url.cn/s/AeuwIVK" class='a a01'></a>
+        <a href="https://w.url.cn/s/AnRXAKd" class='a a02'></a>
+        <a href="https://w.url.cn/s/AnRXAKd" class='a a03'></a>
        
     </div>
     <script type="text/javascript" src="./js/jquery.min.js"></script>
@@ -528,16 +535,13 @@ $signPackage = $jssdk->GetSignPackage();
                }else{
                    url = (url.indexOf("?") != -1)?url+'parentCode='+(encrypt_unionid_openid()):url+'?parentCode='+(encrypt_unionid_openid());
                }
-            
-
-
 
 
             var shareInfo_appMessage = {
-                title: '红星美凯龙 | 独家冠名天猫超级晚，嗨翻顶秀燃爆618', // 分享标题
-                desc: '6月16日19:30-22:30 江苏卫视&优酷视频现场直播', // 分享描述
+                title: '红星美凯龙 | 独家冠名天猫618超级晚，斑斓幻境炫酷出圈', // 分享标题
+                desc: '6月16日19:30-22:30，江苏卫视！抢49999元超级家装大礼包，更有百万家居豪礼免费送！', // 分享描述
         //            link: url, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-                imgUrl: 'http://asdfin.com/meikailong/meikailongPage1/images/WechatIMG265.jpeg', // 分享图标
+                imgUrl: 'http://asdfin.com/meikailong/meikailongPage1/images/shareCover.jpg', // 分享图标
         
                 link: url,//传播的链接地址里面包含参数：parentCode;
                 // 加密后的（openid|unionid） 注意：openid和unionid需要前端拼接，拼接方式是两者中间加|,如前面括号所示。//拼接后需要js加密（），如果拿不到unionid，只传openid。
@@ -569,10 +573,10 @@ $signPackage = $jssdk->GetSignPackage();
                 }
             };
             var shareInfo_timeLine = {
-                title: '红星美凯龙 | 独家冠名天猫超级晚，嗨翻顶秀燃爆618', // 分享标题
-                desc: '6月16日19:30-22:30 江苏卫视&优酷视频现场直播', // 分享描述
+                title: '红星美凯龙 | 独家冠名天猫618超级晚，斑斓幻境炫酷出圈', // 分享标题
+                desc: '6月16日19:30-22:30，江苏卫视！抢49999元超级家装大礼包，更有百万家居豪礼免费送！', // 分享描述
         //            link: url, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-                imgUrl: 'http://asdfin.com/meikailong/meikailongPage1/images/WechatIMG265.jpeg', // 分享图标
+                imgUrl: 'http://asdfin.com/meikailong/meikailongPage1/images/shareCover.jpg', // 分享图标
         
                 link: url,//传播的链接地址里面包含参数：parentCode;
                 // 加密后的（openid|unionid） 注意：openid和unionid需要前端拼接，拼接方式是两者中间加|,如前面括号所示。//拼接后需要js加密（），如果拿不到unionid，只传openid。
