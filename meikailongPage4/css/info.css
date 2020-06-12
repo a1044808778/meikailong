@@ -31,7 +31,7 @@ html .wap-wrap {width:481px;margin:0 auto}
 .bodybg{ width: 100%; overflow: hidden;margin-bottom: -.35rem !important; overflow: hidden;}
 .pi{ position: absolute;}
 .p01{ top: 1.6rem; left:1.27rem; width: 5rem; animation: puffIn 1s ease 0s 1 normal both running;}
-.p02{ top: 8.09rem; left:0; width: 100%; }
+.p02{ top: 8.09rem; left:0; width: 100%; z-index:99; }
 .p03{ top: 0.09rem; left:0; width: 100%; }
 .p04{ top: 0rem; left:0; width: 100%; animation: flash 3s ease 0s infinite normal both running;}
 .p05{ top: 0.05rem; left:0; width: 100%; z-index: 25;}
@@ -40,6 +40,7 @@ html .wap-wrap {width:481px;margin:0 auto}
 .p08{ top:26.9rem; right:.55rem; width:1.6em; z-index: 40;  animation: wobble 1.5s ease 0s infinite normal both running;}
 .p09{ top:31rem; right:.55rem; width:1.6rem; z-index: 40; animation: wobble 1.5s ease 0s infinite normal both running;}
 
+.p10{ top: 0.09rem; left:0; width: 100%; }
 
 
 .a{ position: absolute; display: block; width: 100%; height: 2rem; z-index: 50;}
@@ -47,6 +48,8 @@ html .wap-wrap {width:481px;margin:0 auto}
 .a02{top: 26.3rem; z-index: 550;}
 .a03{top: 30.4rem; z-index: 550;}
 
+.g01{ top:12.35rem; right:1.46rem;  width: 0.6rem; z-index: 15; }
+.g02{ top:12.35rem; left:1.46rem;  width: 0.6rem; z-index: 15; }
 
 
 
