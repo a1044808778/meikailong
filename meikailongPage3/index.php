@@ -43,7 +43,7 @@ $signPackage = $jssdk->GetSignPackage();
         <img class='pi g01' src="./images/gif.gif">
         <img class='pi g02' src="./images/gif.gif">
         <img class='pi p03' src="./images/p02.png">
-        <video class='pi p04' poster="./images/p02.jpg" controls>
+        <video class='pi p04' poster="./images/p03.jpg" controls>
             <source src="./images/video.mp4?2" type="video/mp4"> 
         </video>
         <img class='pi p05' src="./images/p08.png">
