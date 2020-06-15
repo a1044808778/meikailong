@@ -24,7 +24,7 @@ $signPackage = $jssdk->GetSignPackage();
 <meta name="full-screen" content="yes">
 <meta name="screen-orientation" content="portrait">
 <meta name="browsermode" content="application">
-<title>红星美凯龙 | 独家冠名天猫618超级晚，斑斓幻境炫酷出圈</title>
+<title>标题：红星美凯龙 | 独家冠名天猫618超级晚，明星直拍抢先看！</title>
 <link href="./css/info.css" type="text/css" rel="stylesheet">
 <link href="./css/am.css" type="text/css" rel="stylesheet">
 
@@ -43,8 +43,8 @@ $signPackage = $jssdk->GetSignPackage();
         <img class='pi g01' src="./images/gif.gif">
         <img class='pi g02' src="./images/gif.gif">
         <img class='pi p03' src="./images/p02.png">
-        <video class='pi p04' poster="./images/p03.jpg" controls>
-            <source src="./images/video.mp4?2" type="video/mp4"> 
+        <video class='pi p04' poster="./images/videocover.png" controls x5-video-orientation="portraint" x5-video-player-fullscreen="true"  x5-video-player-type="h5" x5­-video­-player­-fullscreen = 'true'>
+            <source src="http://cdn.asdfin.com/page3video.mp4" type="video/mp4"> 
         </video>
         <img class='pi p05' src="./images/p08.png">
         <img class='pi p06' src="./images/p09.png">
@@ -70,7 +70,7 @@ $signPackage = $jssdk->GetSignPackage();
     <script src="./js/md5.js" type="text/javascript"></script>
     <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"></script> 
     
-
+     
 
 
  <!--开发环境-->
@@ -546,7 +546,7 @@ $signPackage = $jssdk->GetSignPackage();
 
 
             var shareInfo_appMessage = {
-                title: '红星美凯龙 | 独家冠名天猫618超级晚，斑斓幻境炫酷出圈', // 分享标题
+                title: '标题：红星美凯龙 | 独家冠名天猫618超级晚，明星直拍抢先看！', // 分享标题
                 desc: '6月16日19:30-22:30，江苏卫视！抢49999元超级家装大礼包，更有百万家居豪礼免费送！', // 分享描述
         //            link: url, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
                 imgUrl: 'http://asdfin.com/meikailong/meikailongPage3/images/shareCover.jpg', // 分享图标
@@ -581,7 +581,7 @@ $signPackage = $jssdk->GetSignPackage();
                 }
             };
             var shareInfo_timeLine = {
-                title: '红星美凯龙 | 独家冠名天猫618超级晚，斑斓幻境炫酷出圈', // 分享标题
+                title: '标题：红星美凯龙 | 独家冠名天猫618超级晚，明星直拍抢先看！', // 分享标题
                 desc: '6月16日19:30-22:30，江苏卫视！抢49999元超级家装大礼包，更有百万家居豪礼免费送！', // 分享描述
         //            link: url, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
                 imgUrl: 'http://asdfin.com/meikailong/meikailongPage3/images/shareCover.jpg', // 分享图标
