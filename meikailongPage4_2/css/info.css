@@ -24,9 +24,7 @@ body,html a {color:#0F192E}
 * {
     -webkit-appearance:none;
 }
-@media screen and (min-width:481px) {html {font-size:64px}
-html .wap-wrap {width:481px;margin:0 auto}
-}
+.wap-wrap{ width: 100%; overflow-x: hidden; margin: 0 auto;}
 img{vertical-align: top;}
 .maingBgBox{ position: relative; height:10.62rem;}
 .mainbg{ width: 100%;  }
@@ -34,7 +32,7 @@ img{vertical-align: top;}
 .buttonBg{ width: 100%;}
 .bannerGif{ width: 100%; margin-top: -0.97rem;}
 .button01box{ position: relative; height: 3.88rem; overflow: hidden;}
-.button02box{ position: relative; height: 2.99rem;}
+.button02box{ position: relative; height: 2.96rem;}
 .button03box{ position: relative; height: 3.06rem;}
 .button{ position: absolute; top: 0;}
 .buttonGif{ position: absolute; bottom:0;}
@@ -43,6 +41,9 @@ img{vertical-align: top;}
 
 
 
+@media screen and (min-width:481px) {html {font-size:64px}
+html .wap-wrap {width:481px;margin:0 auto}
+}
 
 
 
